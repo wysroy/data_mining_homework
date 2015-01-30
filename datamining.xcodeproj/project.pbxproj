@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		19DCB85C1A4462CA00DF7409 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		19DCB8511A44619A00DF7409 = {
 			isa = PBXGroup;
 			children = (
+				19DCB85C1A4462CA00DF7409 /* main.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +28,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = "/Users/wangyisen/Documents/datamining code/datamining";
 			dependencies = (
 			);
 			name = datamining;
